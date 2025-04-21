@@ -9,6 +9,7 @@ class SSPANELCheckin:
         self.passwd = os.environ.get('PASSWD')
         self.server_key = os.environ.get('SERVER_KEY')
         self.domain = os.environ.get('DOMAIN')
+        print(self.domain)
         self.headers = {
             'origin'    : 'https://ikuuu.one',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
