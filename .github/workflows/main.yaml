@@ -29,5 +29,5 @@ jobs:
           EMAIL: ${{ secrets.EMAIL }}
           PASSWD: ${{ secrets.PASSWD }}
           SERVER_KEY: ${{ secrets.SERVER_KEY }}
-          DOMAIN: ${{ vars.DOMAIN }}
+          DOMAIN: ${{ secrets.DOMAIN }}
         run: python checkin.py
